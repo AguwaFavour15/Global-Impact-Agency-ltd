@@ -1,0 +1,83 @@
+
+/* body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: #fff;
+    background: #212529;
+  } */
+  
+  .collapsible {
+    /* 
+    background-color: rgb(208, 163, 163); */
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .activ, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  }
+  .container8{
+    font-size: 16px;
+    /* border: 1px solid #ffffffbf; */
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px;
+    resize: horizontal;
+    overflow: auto;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container8{
+    font-size: 16px;
+    /* border: 1px solid #ffffffbf; */
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px;
+    resize: horizontal;
+    overflow: auto;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  input{
+    padding: 10px 14px;
+    outline: none;
+    /* color: #e2e2e2; */
+    /* background: #0d6efd; */
+    /* border: 1px solid #0d6efd; */
+    border-radius: 4px;
+  }
+  
+  .details1{
+    flex: 1 0 130px;
+  }
+  .email1{
+    flex: 1 0 130px;
+  }
+  .title {
+    font-size: 1.6rem;
+    /* color: #0d6efd; */
+  }
+  .desc1 {
+    /* color:#0d6efd; */
+  }
